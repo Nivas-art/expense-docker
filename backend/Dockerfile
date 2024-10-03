@@ -1,4 +1,4 @@
-FROM nodejs:20
+FROM node:20
 ENV DB_HOST=mysql
 RUN useradd expense
 RUN mkdir /app
